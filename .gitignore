@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local credentials and environment files
+.env*
+!.env.example
+
+# Local application state and document indexes
+*.db
+*.sqlite
+*.sqlite3
+/faiss_db/
+/notebooks/faiss_index/
+/notebooks/my_paper.pdf
